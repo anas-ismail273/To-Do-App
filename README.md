@@ -3,11 +3,14 @@
 A full-stack ToDo app built with React + TypeScript, ASP.NET Core 8, and PostgreSQL, fully containerized with Docker Compose.
 
 ## Quick Start
-
-```bash
+1. Make sure your Docker Desktop app is running
+2. Run the following command in the terminal from the root directory
+3. Open the browser and go to http://localhost:4000
+ ```bash
 docker compose up --build -d
 ```
 
+#### Ports
 - **Frontend:** http://localhost:4000
 - **Backend API:** http://localhost:3000/api/todos
 - **Database:** PostgreSQL on port 5432
